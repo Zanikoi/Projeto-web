@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -6,10 +6,12 @@
     border-radius: 0.5rem;
     padding: 0 2rem;
 }
-body{
+
+body {
     background-color: #64da7a;
 }
-.textos{
+
+.textos {
     text-decoration: none;
     display: flex;
     gap: 0 7rem;
@@ -18,29 +20,114 @@ body{
     padding: 0;
 
 }
-.textos .texto{
+
+.textos .texto {
     text-decoration: none;
     color: #333333;
 }
-.conteudo{
+
+.conteudo1 {
     display: flex;
     margin: 0;
     padding: 0;
 }
-.planeta{
-  display:flex;
-   padding: 2rem;
-   margin: 0 19rem;
-   align-items: center;
+
+.planeta {
+    display: flex;
+    padding: 2rem;
+    margin: 0 16rem;
+    margin-top: 0;
+    align-items: center;
 }
-.frase{
+
+#fraseLogo {
     display: flex;
     align-items: center;
-    margin: -60rem;
-    margin-top: -58rem;
+    margin-left: -55rem;
+    margin-top: 12.5rem;
     font-family: "Comic Sans MS", " cursive", " sans-serif";
     color: rgba(0, 0, 0, 0.98);
     font-size: 55px;
-    gap: 0px 1px ;
-    text-align:center;
+    gap: 0 0px;
+    text-align: center;
+}
+
+#titulo {
+    display: flex;
+    margin-top: 5rem;
+    padding-left: 26rem;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.98);
+}
+
+#paragrafo {
+    display: flex;
+    text-align: justify;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    margin-left: 9rem;
+    font-size: 28px;
+}
+
+.conteudo2 {
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    color: rgba(0, 0, 0, 0.98);
+}
+
+#titulo2 {
+    display: flex;
+    padding-left: 29rem;
+    margin-top: 5rem;
+    font-size: 30px;
+}
+
+.pontos {
+    font-size: 25px;
+}
+
+#ponto1 {
+    display: flex;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#ponto2 {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 56rem;
+}
+
+#ponto3 {
+    display: flex;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#ponto4 {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 56rem;
+    padding-bottom: 5rem;
+}
+
+.footer {
+    background-color: white;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    align-items: center;
+}
+
+#frasefinal {
+    font-size: 40px;
+    padding-left: 20rem;
+    padding-top: 2rem;
+    color: #333333;
+}
+
+#equipe {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 10px;
 }
