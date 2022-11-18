@@ -1,3 +1,8 @@
+* {
+    Margin : 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    }
 .navbar {
     background-color: white;
     display: flex;
@@ -5,6 +10,10 @@
     align-items: center;
     border-radius: 0.5rem;
     padding: 0 2rem;
+    width: 100%;
+    margin: 0;
+    width: auto;
+    height: auto;
 }
 
 body {
@@ -117,6 +126,9 @@ body {
     background-color: white;
     font-family: "Comic Sans MS", " cursive", " sans-serif";
     align-items: center;
+    width: auto;
+    height: auto;
+
 }
 
 #frasefinal {
@@ -130,4 +142,201 @@ body {
     padding-left: 2rem;
     padding-bottom: 1rem;
     font-size: 10px;
+}
+@media (min-width: 480px ) and (max-width: 720px){
+    .navbar {
+      height: auto;
+      width: auto;
+    }
+    .textos{
+        font-size: 12px;
+        gap: 0 0.7rem;
+    }
+    .planeta img{
+        margin-left: -16.5rem;
+        padding: 0;
+        height: 300px;
+        width: 370px;
+    }
+    #fraseLogo{
+        font-size: 33px;
+        margin-left: -42.3rem;
+        margin-top: 9rem;
+    }
+    #titulo { 
+        font-size: 20px;
+        margin-left: -22rem;
+    }
+    #paragrafo{
+        font-size: 12px;
+        margin-left: 0.5rem;
+    }
+    #titulo2{
+        font-size: 20px;
+        margin-left: -22.6rem;
+    }
+    #ponto1 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto2 { 
+        font-size: 15px;
+        margin-left: -40rem;
+        text-align: center;
+    }
+    #ponto3 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto4 { 
+        font-size: 15px;
+        margin-left: -40rem;
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+      width: auto;
+    }
+    #frasefinal{
+        font-size: 15px;
+        margin-left: -13rem;
+        padding-top: 0.1rem;
+    }
+    #equipe {
+        font-size: 7px;
+        margin-top: -3rem;
+        margin-left: -1.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+      height: auto;
+      width: auto;
+    }
+    .textos{
+        font-size: 12px;
+        gap: 0 1.5rem;
+    }
+    .planeta img{
+        margin-left: -17rem;
+        padding: 0;
+        height: 320px;
+        width: 400px;
+    }
+    #fraseLogo{
+        font-size: 35px;
+        margin-left: -42.5rem;
+        margin-top: 9rem;
+    }
+    #titulo { 
+        font-size: 20px;
+        margin-left: -20rem;
+    }
+    #paragrafo{
+        font-size: 13px;
+        margin-left: 0.9rem;
+    }
+    #titulo2{
+        font-size: 20px;
+        margin-left: -20.6rem;
+    }
+    #ponto1 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto2 { 
+        font-size: 15px;
+        margin-left: -38rem;
+        text-align: center;
+    }
+    #ponto3 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto4 { 
+        font-size: 15px;
+        margin-left: -38rem;
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+      width: auto;
+    }
+    #frasefinal{
+        font-size: 15px;
+        margin-left: -11rem;
+        padding-top: 0.1rem;
+    }
+    #equipe {
+        font-size: 7px;
+        margin-top: -3rem;
+        margin-left: -1.5rem;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .navbar {
+
+      height: auto;
+      width: auto;
+    }
+    .textos{
+        font-size: 20px;
+        gap: 0 2.5rem;
+    }
+    .planeta img{
+        margin-left: -15rem;
+        padding: 0;
+        height: 400px;
+        width: 540px;
+    }
+    #fraseLogo{
+        font-size: 50px;
+        margin-left: -53.5rem;
+        margin-top: 11rem;
+    }
+    #titulo { 
+        font-size: 30px;
+        margin-left: -19rem;
+    }
+    #paragrafo{
+        font-size: 18px;
+        margin-left: 1.5rem;
+    }
+    #titulo2{
+        font-size: 30px;
+        margin-left: -19rem;
+    }
+    #ponto1 { 
+        font-size: 20px;
+        margin-left: -2rem;
+    }
+    #ponto2 { 
+        font-size: 20px;
+        margin-left: -31rem;
+        text-align: center;
+    }
+    #ponto3 { 
+        font-size: 20px;
+        margin-left: -2rem;
+    }
+    #ponto4 { 
+        font-size: 20px;
+        margin-left: -31rem;
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+        width: auto;
+    }
+    #frasefinal{
+        font-size: 22px;
+        margin-left: -10rem;
+        align-items: center;
+    }
+    #equipe {
+        font-size: 11px;
+        margin-top: -3rem;
+        margin-left: -0.5rem;
+    }
 }
