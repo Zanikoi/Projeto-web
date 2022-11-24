@@ -17,9 +17,6 @@ body{
 .conteudo_Superior{
     display: flex;
 }
-#bnt_Sair a{
-    text-decoration: none;
-}
 #bnt_Sair {
     margin-left: 370px;
     width: 110px;

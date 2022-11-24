@@ -11,10 +11,7 @@
         font-family: "Comic Sans MS", " cursive", " sans-serif";
         margin-left: 44%;
         margin-top: 2rem;
-    }
-    #bnt_Sair a{
-        text-decoration: none;
-    }
+    }   
     #bnt_Sair {
         margin-left: 480px;
         width: 110px;

@@ -68,10 +68,6 @@ body {
     height: 40px;
 }
 
-#bnt_Sair a {
-    text-decoration: none;
-}
-
 #bnt_Sair {
     margin-left: -70rem;
     width: 110px;

@@ -56,10 +56,6 @@ body {
     height: 40px;
 }
 
-#bnt_Voltar a {
-    text-decoration: none;
-}
-
 #bnt_Voltar {
     margin-left: -70rem;
     width: 110px;
