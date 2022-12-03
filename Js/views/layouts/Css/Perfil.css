@@ -1,0 +1,155 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0 2rem;
+    width: 100%;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-color: #64da7a;
+}
+
+.textos {
+    text-decoration: none;
+    display: flex;
+    gap: 0 7rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+.textos .texto {
+    text-decoration: none;
+    color: #333333;
+}
+
+.conteudo1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.planeta {
+    display: flex;
+    padding: 2rem;
+    margin: 0 16rem;
+    margin-top: 0;
+    align-items: center;
+}
+
+#fraseLogo {
+    display: flex;
+    align-items: center;
+    margin-left: -55rem;
+    margin-top: 12.5rem;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    color: rgba(0, 0, 0, 0.98);
+    font-size: 55px;
+    gap: 0 0px;
+    text-align: center;
+}
+
+#img_perfil {
+    width: 40px;
+    height: 40px;
+}
+
+#bnt_Sair {
+    margin-left: -70rem;
+    width: 110px;
+    height: 30px;
+    border-radius: 13px;
+    background-color: white;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#titulo {
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    margin-left: 25rem;
+    margin-top: 3rem;
+    font-size: 40px;
+}
+
+.listas a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #333333;
+}
+
+.listas {
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+#B_Fatima {
+    list-style: none;
+}
+
+#V_Matoso {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+#V_Gongalves {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+#centro {
+    list-style: none;
+    margin-top: 2rem;
+}
+#hr1 {
+    border-top: 1px solid white;
+    width: 73rem;
+  }
+  #hr2 {
+    border-top: 1px solid white;
+    width: 73rem;
+  }
+  #hr3 {
+    border-top: 1px solid white;
+    width: 73rem;
+  }
+  #hr4 {
+    border-top: 1px solid white;
+    width: 73rem;
+  }
+  .footer {
+    margin-top: 5rem;
+    background-color: white;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+
+#frasefinal {
+    font-size: 40px;
+    padding-left: 23rem;
+    padding-top: 2rem;
+    color: #333333;
+}
+
+#equipe {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 10px;
+}
