@@ -1,0 +1,342 @@
+* {
+    Margin : 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    }
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0 2rem;
+    width: 100%;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-color: #64da7a;
+}
+
+.textos {
+    text-decoration: none;
+    display: flex;
+    gap: 0 7rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.textos .texto {
+    text-decoration: none;
+    color: #333333;
+}
+
+.conteudo1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.planeta {
+    display: flex;
+    padding: 2rem;
+    margin: 0 16rem;
+    margin-top: 0;
+    align-items: center;
+}
+
+#fraseLogo {
+    display: flex;
+    align-items: center;
+    margin-left: -55rem;
+    margin-top: 12.5rem;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    color: rgba(0, 0, 0, 0.98);
+    font-size: 55px;
+    gap: 0 0px;
+    text-align: center;
+}
+
+#titulo {
+    display: flex;
+    margin-top: 5rem;
+    padding-left: 26rem;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.98);
+}
+
+#paragrafo {
+    display: flex;
+    text-align: justify;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    margin-left: 9rem;
+    font-size: 28px;
+}
+
+.conteudo2 {
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    color: rgba(0, 0, 0, 0.98);
+}
+
+#titulo2 {
+    display: flex;
+    padding-left: 29rem;
+    margin-top: 5rem;
+    font-size: 30px;
+}
+
+.pontos {
+    font-size: 25px;
+}
+
+#ponto1 {
+    display: flex;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#ponto2 {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 56rem;
+}
+
+#ponto3 {
+    display: flex;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#ponto4 {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 56rem;
+    padding-bottom: 5rem;
+}
+
+.footer {
+    background-color: white;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+
+#frasefinal {
+    font-size: 40px;
+    padding-left: 20rem;
+    padding-top: 2rem;
+    color: #333333;
+}
+
+#equipe {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 10px;
+}
+@media (min-width: 480px ) and (max-width: 720px){
+    .navbar {
+      height: auto;
+      width: auto;
+    }
+    .textos{
+        font-size: 12px;
+        gap: 0 0.7rem;
+    }
+    .planeta img{
+        margin-left: -16.5rem;
+        padding: 0;
+        height: 300px;
+        width: 370px;
+    }
+    #fraseLogo{
+        font-size: 33px;
+        margin-left: -42.3rem;
+        margin-top: 9rem;
+    }
+    #titulo { 
+        font-size: 20px;
+        margin-left: -22rem;
+    }
+    #paragrafo{
+        font-size: 12px;
+        margin-left: 0.5rem;
+    }
+    #titulo2{
+        font-size: 20px;
+        margin-left: -22.6rem;
+    }
+    #ponto1 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto2 { 
+        font-size: 15px;
+        margin-left: -40rem;
+        text-align: center;
+    }
+    #ponto3 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto4 { 
+        font-size: 15px;
+        margin-left: -40rem;
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+      width: auto;
+    }
+    #frasefinal{
+        font-size: 15px;
+        margin-left: -13rem;
+        padding-top: 0.1rem;
+    }
+    #equipe {
+        font-size: 7px;
+        margin-top: -3rem;
+        margin-left: -1.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+      height: auto;
+      width: auto;
+    }
+    .textos{
+        font-size: 12px;
+        gap: 0 1.5rem;
+    }
+    .planeta img{
+        margin-left: -17rem;
+        padding: 0;
+        height: 320px;
+        width: 400px;
+    }
+    #fraseLogo{
+        font-size: 35px;
+        margin-left: -42.5rem;
+        margin-top: 9rem;
+    }
+    #titulo { 
+        font-size: 20px;
+        margin-left: -20rem;
+    }
+    #paragrafo{
+        font-size: 13px;
+        margin-left: 0.9rem;
+    }
+    #titulo2{
+        font-size: 20px;
+        margin-left: -20.6rem;
+    }
+    #ponto1 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto2 { 
+        font-size: 15px;
+        margin-left: -38rem;
+        text-align: center;
+    }
+    #ponto3 { 
+        font-size: 15px;
+        margin-left: -3rem;
+    }
+    #ponto4 { 
+        font-size: 15px;
+        margin-left: -38rem;
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+      width: auto;
+    }
+    #frasefinal{
+        font-size: 15px;
+        margin-left: -11rem;
+        padding-top: 0.1rem;
+    }
+    #equipe {
+        font-size: 7px;
+        margin-top: -3rem;
+        margin-left: -1.5rem;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .navbar {
+
+      height: auto;
+      width: auto;
+    }
+    .textos{
+        font-size: 20px;
+        gap: 0 2.5rem;
+    }
+    .planeta img{
+        margin-left: -15rem;
+        padding: 0;
+        height: 400px;
+        width: 540px;
+    }
+    #fraseLogo{
+        font-size: 50px;
+        margin-left: -53.5rem;
+        margin-top: 11rem;
+    }
+    #titulo { 
+        font-size: 30px;
+        margin-left: -19rem;
+    }
+    #paragrafo{
+        font-size: 18px;
+        margin-left: 1.5rem;
+    }
+    #titulo2{
+        font-size: 30px;
+        margin-left: -19rem;
+    }
+    #ponto1 { 
+        font-size: 20px;
+        margin-left: -2rem;
+    }
+    #ponto2 { 
+        font-size: 20px;
+        margin-left: -31rem;
+        text-align: center;
+    }
+    #ponto3 { 
+        font-size: 20px;
+        margin-left: -2rem;
+    }
+    #ponto4 { 
+        font-size: 20px;
+        margin-left: -31rem;
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+        width: auto;
+    }
+    #frasefinal{
+        font-size: 22px;
+        margin-left: -10rem;
+        align-items: center;
+    }
+    #equipe {
+        font-size: 11px;
+        margin-top: -3rem;
+        margin-left: -0.5rem;
+    }
+}

@@ -5,6 +5,7 @@ const path = require("path");
 const bodyParser =  require('body-parser');
 const Post = require("./Modolo/Post");
 
+
 //template engine
 app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
@@ -13,10 +14,12 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-//Public 
-app.use(express.static(path.join(__dirname,"layouts")));
-
+app.use(express.static(path.join(__dirname, '/')));
 //rotas
+
+app.get('/', function(req, res){
+    res.sendFile(__dirname + "/index.html")
+});
 app.get('/card', function(req, res){
     res.render('formulario_Cadastro');
 });
@@ -41,6 +44,6 @@ app.post('/add', function(req, res){
     });
 });
 
-app.listen(8081, function(){
+app.listen(8081, function(res, req){
     console.log("servidor rodando na url http://localhost:8081");
 });

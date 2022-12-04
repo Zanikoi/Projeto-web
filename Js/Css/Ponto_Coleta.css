@@ -1,0 +1,146 @@
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0 2rem;
+    width: 100%;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-color: #64da7a;
+}
+
+.textos {
+    text-decoration: none;
+    display: flex;
+    gap: 0 7rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+.textos .texto {
+    text-decoration: none;
+    color: #333333;
+}
+
+.conteudo1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.planeta {
+    display: flex;
+    padding: 2rem;
+    margin: 0 16rem;
+    margin-top: 6rem;
+    align-items: center;
+}
+
+#img_perfil {
+    width: 40px;
+    height: 40px;
+}
+
+#bnt_Voltar {
+    margin-left: -70rem;
+    width: 110px;
+    height: 30px;
+    border-radius: 13px;
+    background-color: white;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.lista {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: -20rem;
+    font-size: 40px;
+    margin-left: 5rem;
+}
+
+#localização {
+    list-style: none;
+}
+
+#Cnpj {
+    list-style: none;
+}
+
+#Hr1 {
+    border-top: 1px solid white;
+    width: 73rem;
+}
+
+#Hr2 {
+    border-top: 1px solid white;
+    width: 73rem;
+}
+
+#bnt_Sair {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 110px;
+    height: 30px;
+    border-radius: 13px;
+    background-color: white;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    margin-top: 9rem;
+    background-color: white;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+
+#frasefinal {
+    font-size: 40px;
+    padding-left: 20rem;
+    padding-top: 2rem;
+    color: #333333;
+}
+
+#equipe {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 10px;
+}
+
+#titulo {
+    margin-left: -75rem;
+    margin-top: 4rem;
+    font-size: 40px;
+    font-family: "Comic Sans MS", " cursive", " sans-serif";
+}
+
+#bnt_Denucia {
+    color: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 13px;
+    background-color: red;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5rem;
+    margin-left: 60rem;
+}
