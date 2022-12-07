@@ -112,10 +112,8 @@ app.post('/atualizar', async(req, res)=>{
         where : {
             Documento: req.body.Documento
         }
-     }).then (function (){ 
-        console.log("entrouuuu")
-
-        await = user.update({
+     }).then( async() =>{ 
+        await user.update({
             where : {
             Email: req.body.Email,
             Senha: req.body.Senha,
@@ -127,6 +125,7 @@ app.post('/atualizar', async(req, res)=>{
             Tipo_Coleta: req.body.Tipo_Coleta,
         }
         });
+        res.send("atualizado");
 
     }).catch(function(erro){
         res.send("Houve um erro" + erro);

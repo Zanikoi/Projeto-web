@@ -11,12 +11,16 @@
     <div id="h1">
       <h1>Atualizar perfil</h1>
     </div>
+    <form action="/logar" method="get">
     <div>
         <button id="bnt_voltar">Voltar</button>
     </div>
+  </form>
+  <form action="/" method="get">
     <div>
       <button id="bnt_Sair">Sair</button>
     </div>
+  </form>
   </section>
   <section class="conteudo_meio">
     <form action="/atualizar" method="post" class="formulario">
@@ -45,11 +49,6 @@
           <input type="email" name="Email" id="input_Email" placeholder="Email"/>
           <input type="password" name="Senha" id="input_Passowrd" placeholder="Senha" />
       </div>
-      <div class="login">
-        <h4 id="login_titulo">Digite Dados Antigos</h4>
-        <input type="email" name="Email_Antigo" id="input_Email" placeholder="Email"/>
-        <input type="password" name="Senha_Antigo" id="input_Passowrd" placeholder="Senha" />
-    </div>
   </section>
   <section>
       <button id="bnt_cadastro">Atualizar</button>
