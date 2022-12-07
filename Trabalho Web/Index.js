@@ -108,15 +108,29 @@ app.get('/paginaatualizar',function(req, res){
 app.post('/atualizar', async(req, res)=>{
 
     const user = await Post.findOne({
-        attributes: ['Senha', 'Email', 'id'],
+        attributes: ['Senha', 'Email', 'id' , 'Documento', 'Cep', 'Bairro', 'Ponto_Referencia', 'Rua','Numero', 'Tipo_Coleta'],
         where : {
-            Email: req.body.Email
+            Documento: req.body.Documento
         }
-     });
-     console.log(user.Email);
-     user.Email = req.body.Email;
-     const resultado = await user.save();
-     console.log(resultado);
+     }).then (function (){ 
+        console.log("entrouuuu")
+
+        await = user.update({
+            where : {
+            Email: req.body.Email,
+            Senha: req.body.Senha,
+            Cep: req.body.Cep,
+            Bairro: req.body.Bairro,
+            Ponto_Referencia: req.body.Ponto_Referencia,
+            Rua: req.body.Rua,
+            Numero: req.body.Numero,
+            Tipo_Coleta: req.body.Tipo_Coleta,
+        }
+        });
+
+    }).catch(function(erro){
+        res.send("Houve um erro" + erro);
+    });
 
 });
 
